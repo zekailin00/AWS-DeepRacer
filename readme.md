@@ -1,5 +1,13 @@
 # AWS DeepRacer core application overview 
 
+# clone the repository
+
+```
+ git clone https://github.com/zekailin00/AWS-DeepRacer.git
+ cd AWS-DeepRacer
+ git submodule init
+ git submodule update
+```
 <p align="center">
 <img src="/media/deepracer_circle_sticker.png" width="250" height="250" >
 </p>
