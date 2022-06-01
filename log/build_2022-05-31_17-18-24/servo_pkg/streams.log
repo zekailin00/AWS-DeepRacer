@@ -1,0 +1,95 @@
+[0.052s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-servo-pkg/servo_pkg -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg
+[0.244s] -- The C compiler identification is GNU 9.3.0
+[0.432s] -- The CXX compiler identification is GNU 9.3.0
+[0.501s] -- Check for working C compiler: /usr/bin/cc
+[0.729s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.732s] -- Detecting C compiler ABI info
+[1.108s] -- Detecting C compiler ABI info - done
+[1.151s] -- Detecting C compile features
+[1.152s] -- Detecting C compile features - done
+[1.166s] -- Check for working CXX compiler: /usr/bin/c++
+[1.426s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.429s] -- Detecting CXX compiler ABI info
+[1.846s] -- Detecting CXX compiler ABI info - done
+[1.895s] -- Detecting CXX compile features
+[1.897s] -- Detecting CXX compile features - done
+[1.906s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.005s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.006s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.986s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.154s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.402s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.492s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.960s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.965s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.968s] -- Looking for pthread.h
+[4.208s] -- Looking for pthread.h - found
+[4.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.448s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.448s] -- Looking for pthread_create in pthreads
+[4.623s] -- Looking for pthread_create in pthreads - not found
+[4.624s] -- Looking for pthread_create in pthread
+[4.853s] -- Looking for pthread_create in pthread - found
+[4.856s] -- Found Threads: TRUE  
+[5.449s] -- Found deepracer_interfaces_pkg: 0.0.1 (/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/share/deepracer_interfaces_pkg/cmake)
+[6.578s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.062s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.063s] -- Configured cppcheck include dirs: /root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-servo-pkg/servo_pkg/include
+[7.063s] -- Configured cppcheck exclude dirs and/or files: 
+[7.066s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.067s] -- Configured cpplint exclude dirs and/or files: 
+[7.068s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.070s] -- Added test 'lint_cmake' to check CMake code style
+[7.072s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.075s] -- Added test 'uncrustify' to check C / C++ code style
+[7.075s] -- Configured uncrustify additional arguments: 
+[7.077s] -- Added test 'xmllint' to check XML markup files
+[7.087s] -- Configuring done
+[7.124s] -- Generating done
+[7.129s] -- Build files have been written to: /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg
+[7.162s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-servo-pkg/servo_pkg -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg
+[7.165s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg -- -j2 -l2
+[7.294s] [35m[1mScanning dependencies of target servo_node[0m
+[7.643s] [ 14%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[35.439s] [ 28%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/bios_version.cpp.o[0m
+[43.594s] [ 42%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/utility.cpp.o[0m
+[45.911s] [ 57%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/led_mgr.cpp.o[0m
+[56.529s] [ 71%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_mgr.cpp.o[0m
+[67.376s] [ 85%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/pwm.cpp.o[0m
+[75.946s] [100%] [32m[1mLinking CXX executable servo_node[0m
+[77.640s] [100%] Built target servo_node
+[77.673s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg -- -j2 -l2
+[77.802s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg
+[77.841s] -- Install configuration: ""
+[77.842s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/lib/servo_pkg/servo_node
+[78.028s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/lib/servo_pkg/servo_node" to ""
+[78.028s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include
+[78.029s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg
+[78.029s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/bios_version.hpp
+[78.030s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/led_mgr.hpp
+[78.031s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/pwm.hpp
+[78.031s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/servo_mgr.hpp
+[78.031s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/utility.hpp
+[78.032s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg//launch
+[78.032s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg//launch/servo_pkg_launch.py
+[78.038s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/ament_index/resource_index/package_run_dependencies/servo_pkg
+[78.039s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/ament_index/resource_index/parent_prefix_path/servo_pkg
+[78.040s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/ament_prefix_path.sh
+[78.040s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/ament_prefix_path.dsv
+[78.041s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/path.sh
+[78.044s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/path.dsv
+[78.048s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.bash
+[78.050s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.sh
+[78.050s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.zsh
+[78.051s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.dsv
+[78.051s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/package.dsv
+[78.052s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/ament_index/resource_index/packages/servo_pkg
+[78.052s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.053s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.054s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/servo_pkgConfig.cmake
+[78.054s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/servo_pkgConfig-version.cmake
+[78.055s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/package.xml
+[78.063s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg

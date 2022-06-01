@@ -1,0 +1,44 @@
+[2.562s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-usb-monitor-pkg/usb_monitor_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/usb_monitor_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/install.log --single-version-externally-managed
+[3.456s] running egg_info
+[3.459s] creating ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info
+[3.460s] writing ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/PKG-INFO
+[3.462s] writing dependency_links to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/dependency_links.txt
+[3.463s] writing entry points to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/entry_points.txt
+[3.465s] writing requirements to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/requires.txt
+[3.466s] writing top-level names to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/top_level.txt
+[3.472s] writing manifest file '../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/SOURCES.txt'
+[3.602s] reading manifest file '../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/SOURCES.txt'
+[3.606s] writing manifest file '../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/SOURCES.txt'
+[3.607s] running build
+[3.607s] running build_py
+[3.609s] creating /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build
+[3.609s] creating /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib
+[3.611s] creating /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg
+[3.611s] copying usb_monitor_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg
+[3.613s] copying usb_monitor_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg
+[3.614s] copying usb_monitor_pkg/mount_point_tracker.py -> /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg
+[3.616s] copying usb_monitor_pkg/usb_monitor_node.py -> /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg
+[3.617s] running install
+[3.621s] running install_lib
+[3.625s] creating /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg
+[3.626s] copying /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg
+[3.627s] copying /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg
+[3.628s] copying /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg/mount_point_tracker.py -> /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg
+[3.630s] copying /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build/lib/usb_monitor_pkg/usb_monitor_node.py -> /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg
+[3.633s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg/__init__.py to __init__.cpython-38.pyc
+[3.638s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg/constants.py to constants.cpython-38.pyc
+[3.640s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg/mount_point_tracker.py to mount_point_tracker.cpython-38.pyc
+[3.643s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg/usb_monitor_node.py to usb_monitor_node.cpython-38.pyc
+[3.648s] running install_data
+[3.651s] creating /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/share/ament_index
+[3.651s] creating /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/share/ament_index/resource_index
+[3.652s] creating /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/share/ament_index/resource_index/packages
+[3.653s] copying resource/usb_monitor_pkg -> /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/share/ament_index/resource_index/packages
+[3.654s] copying package.xml -> /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/share/usb_monitor_pkg
+[3.655s] copying launch/usb_monitor_pkg_launch.py -> /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/share/usb_monitor_pkg
+[3.657s] running install_egg_info
+[3.663s] Copying ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info to /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg-0.0.1-py3.8.egg-info
+[3.667s] running install_scripts
+[3.731s] Installing usb_monitor_node script to /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/usb_monitor_pkg
+[3.734s] writing list of installed files to '/root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/install.log'
+[3.820s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-usb-monitor-pkg/usb_monitor_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/usb_monitor_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/install.log --single-version-externally-managed

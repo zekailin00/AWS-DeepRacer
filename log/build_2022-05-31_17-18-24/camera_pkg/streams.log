@@ -1,0 +1,89 @@
+[1.104s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-camera-pkg/camera_pkg -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg
+[1.304s] -- The C compiler identification is GNU 9.3.0
+[1.489s] -- The CXX compiler identification is GNU 9.3.0
+[1.538s] -- Check for working C compiler: /usr/bin/cc
+[1.772s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.774s] -- Detecting C compiler ABI info
+[2.156s] -- Detecting C compiler ABI info - done
+[2.201s] -- Detecting C compile features
+[2.202s] -- Detecting C compile features - done
+[2.213s] -- Check for working CXX compiler: /usr/bin/c++
+[2.481s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.485s] -- Detecting CXX compiler ABI info
+[2.852s] -- Detecting CXX compiler ABI info - done
+[2.898s] -- Detecting CXX compile features
+[2.899s] -- Detecting CXX compile features - done
+[2.908s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.003s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[3.004s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.196s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.369s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.754s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.220s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.227s] -- Looking for pthread.h
+[5.488s] -- Looking for pthread.h - found
+[5.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.722s] -- Looking for pthread_create in pthreads
+[5.899s] -- Looking for pthread_create in pthreads - not found
+[5.899s] -- Looking for pthread_create in pthread
+[6.138s] -- Looking for pthread_create in pthread - found
+[6.141s] -- Found Threads: TRUE  
+[6.723s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.162s] -- Found deepracer_interfaces_pkg: 0.0.1 (/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/share/deepracer_interfaces_pkg/cmake)
+[7.806s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[7.980s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[8.018s] -- Found OpenCV: /opt/intel/openvino_2021.1.110/opencv (found version "4.5.0") 
+[8.077s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.524s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.528s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.529s] -- Configured cppcheck include dirs: 
+[8.530s] -- Configured cppcheck exclude dirs and/or files: 
+[8.534s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.535s] -- Configured cpplint exclude dirs and/or files: 
+[8.538s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.541s] -- Added test 'lint_cmake' to check CMake code style
+[8.543s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.547s] -- Added test 'uncrustify' to check C / C++ code style
+[8.548s] -- Configured uncrustify additional arguments: 
+[8.552s] -- Added test 'xmllint' to check XML markup files
+[8.564s] -- Configuring done
+[8.629s] -- Generating done
+[8.636s] -- Build files have been written to: /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg
+[8.673s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-camera-pkg/camera_pkg -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg
+[8.676s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg -- -j2 -l2
+[8.830s] [35m[1mScanning dependencies of target camera_node[0m
+[9.206s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o[0m
+[32.891s] [100%] [32m[1mLinking CXX executable camera_node[0m
+[35.480s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+[35.485s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[35.511s] [100%] Built target camera_node
+[35.548s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg -- -j2 -l2
+[35.634s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg
+[35.664s] -- Install configuration: ""
+[35.666s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/lib/camera_pkg/camera_node
+[35.836s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/lib/camera_pkg/camera_node" to ""
+[35.837s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg//launch
+[35.839s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg//launch/camera_pkg_launch.py
+[35.841s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/ament_index/resource_index/package_run_dependencies/camera_pkg
+[35.841s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/ament_index/resource_index/parent_prefix_path/camera_pkg
+[35.843s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.sh
+[35.844s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.dsv
+[35.846s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/path.sh
+[35.847s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/path.dsv
+[35.848s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.bash
+[35.850s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.sh
+[35.851s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.zsh
+[35.853s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.dsv
+[35.854s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/package.dsv
+[35.856s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/ament_index/resource_index/packages/camera_pkg
+[35.857s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.859s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.860s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig.cmake
+[35.862s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig-version.cmake
+[35.874s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/package.xml
+[35.875s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg

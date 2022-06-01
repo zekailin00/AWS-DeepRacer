@@ -1,0 +1,144 @@
+[0.049s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/rplidar_ros -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2
+[0.283s] -- The C compiler identification is GNU 9.3.0
+[0.462s] -- The CXX compiler identification is GNU 9.3.0
+[0.635s] -- Check for working C compiler: /usr/bin/cc
+[0.863s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.868s] -- Detecting C compiler ABI info
+[1.248s] -- Detecting C compiler ABI info - done
+[1.293s] -- Detecting C compile features
+[1.296s] -- Detecting C compile features - done
+[1.308s] -- Check for working CXX compiler: /usr/bin/c++
+[1.705s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.706s] -- Detecting CXX compiler ABI info
+[1.972s] -- Detecting CXX compiler ABI info - done
+[2.019s] -- Detecting CXX compile features
+[2.021s] -- Detecting CXX compile features - done
+[2.205s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.292s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.293s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.270s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.427s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.741s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.186s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.195s] -- Looking for pthread.h
+[4.433s] -- Looking for pthread.h - found
+[4.435s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.669s] -- Looking for pthread_create in pthreads
+[4.837s] -- Looking for pthread_create in pthreads - not found
+[4.838s] -- Looking for pthread_create in pthread
+[5.077s] -- Looking for pthread_create in pthread - found
+[5.081s] -- Found Threads: TRUE  
+[5.683s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.311s] -- Found std_srvs: 2.0.3 (/opt/ros/foxy/share/std_srvs/cmake)
+[6.765s] -- Configuring done
+[6.802s] -- Generating done
+[6.809s] -- Build files have been written to: /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2
+[6.827s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/rplidar_ros -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2
+[6.836s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2 -- -j2 -l2
+[6.953s] [35m[1mScanning dependencies of target rplidar_scan_publisher[0m
+[7.347s] [ 14%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/src/rplidar_scan_publisher.cpp.o[0m
+[12.707s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[12.707s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[12.708s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.708s]    59 |     _u8 data[[01;35m[K0[m[K];
+[12.708s]       |              [01;35m[K^[m[K
+[12.709s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[12.709s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[12.710s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.710s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[12.710s]       |                  [01;35m[K^[m[K
+[21.293s] [ 28%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[22.824s] [ 42%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[23.904s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[23.904s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[23.905s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[23.905s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.906s]    59 |     _u8 data[[01;35m[K0[m[K];
+[23.909s]       |              [01;35m[K^[m[K
+[23.909s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[23.910s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[23.910s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[23.910s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.911s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[23.911s]       |                  [01;35m[K^[m[K
+[24.445s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[25.578s] [ 71%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/hal/thread.cpp.o[0m
+[26.626s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[26.626s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[26.627s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[26.627s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[26.627s]    59 |     _u8 data[[01;35m[K0[m[K];
+[26.628s]       |              [01;35m[K^[m[K
+[26.628s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[26.629s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[26.629s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[26.629s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[26.629s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[26.630s]       |                  [01;35m[K^[m[K
+[26.635s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[26.636s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[26.637s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[26.637s]    48 | ad_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[26.637s]       |                                                                    [01;35m[K^~~~[m[K
+[26.638s] 
+[26.821s] [ 85%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/rplidar_driver.cpp.o[0m
+[27.896s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[27.897s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+[27.897s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[27.898s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[27.898s]    59 |     _u8 data[[01;35m[K0[m[K];
+[27.898s]       |              [01;35m[K^[m[K
+[27.899s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[27.899s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+[27.899s]                  from [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[27.900s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[27.900s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[27.900s]       |                  [01;35m[K^[m[K
+[28.103s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[28.103s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/rplidar_driver.cpp:1208:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[28.104s]  1208 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[28.104s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[28.104s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/rplidar_ros/sdk/src/rplidar_driver.cpp:1216:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[28.105s]  1216 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[28.105s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[29.411s] [100%] [32m[1mLinking CXX executable rplidar_scan_publisher[0m
+[30.552s] [100%] Built target rplidar_scan_publisher
+[30.584s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2 -- -j2 -l2
+[30.700s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2
+[30.733s] -- Install configuration: ""
+[30.734s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch
+[30.735s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_a3_launch.py
+[30.735s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_launch.py
+[30.736s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_launch.py
+[30.736s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_tcp_launch.py
+[30.737s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_a3_launch.py
+[30.737s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_launch.py
+[30.737s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_launch.py
+[30.738s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_tcp_launch.py
+[30.738s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/rviz
+[30.738s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/rviz/rplidar_ros2.rviz
+[30.739s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher
+[30.906s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher" to ""
+[30.906s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/ament_index/resource_index/package_run_dependencies/rplidar_ros2
+[30.907s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/ament_index/resource_index/parent_prefix_path/rplidar_ros2
+[30.907s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.sh
+[30.907s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.dsv
+[30.908s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/path.sh
+[30.908s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/path.dsv
+[30.909s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.bash
+[30.909s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.sh
+[30.910s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.zsh
+[30.910s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.dsv
+[30.911s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/package.dsv
+[30.911s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/ament_index/resource_index/packages/rplidar_ros2
+[30.911s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.911s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.912s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config.cmake
+[30.912s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config-version.cmake
+[30.913s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/package.xml
+[30.927s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2
