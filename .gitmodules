@@ -1,0 +1,51 @@
+[submodule "async_web_server_cpp"]
+	path = async_web_server_cpp
+	url = https://github.com/GT-RAIL/async_web_server_cpp.git
+[submodule "aws-deepracer-camera-pkg"]
+	path = aws-deepracer-camera-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-camera-pkg.git
+[submodule "aws-deepracer-ctrl-pkg"]
+	path = aws-deepracer-ctrl-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-ctrl-pkg.git
+[submodule "aws-deepracer-device-info-pkg"]
+	path = aws-deepracer-device-info-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-device-info-pkg.git
+[submodule "aws-deepracer-i2c-pkg"]
+	path = aws-deepracer-i2c-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-i2c-pkg.git
+[submodule "aws-deepracer-inference-pkg"]
+	path = aws-deepracer-inference-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-inference-pkg.git
+[submodule "aws-deepracer-interfaces-pkg"]
+	path = aws-deepracer-interfaces-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-interfaces-pkg.git
+[submodule "aws-deepracer-model-optimizer-pkg"]
+	path = aws-deepracer-model-optimizer-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-model-optimizer-pkg.git
+[submodule "aws-deepracer-navigation-pkg"]
+	path = aws-deepracer-navigation-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-navigation-pkg.git
+[submodule "aws-deepracer-sensor-fusion-pkg"]
+	path = aws-deepracer-sensor-fusion-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-sensor-fusion-pkg.git
+[submodule "aws-deepracer-servo-pkg"]
+	path = aws-deepracer-servo-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-servo-pkg.git
+[submodule "aws-deepracer-status-led-pkg"]
+	path = aws-deepracer-status-led-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-status-led-pkg.git
+[submodule "aws-deepracer-systems-pkg"]
+	path = aws-deepracer-systems-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-systems-pkg.git
+[submodule "aws-deepracer-usb-monitor-pkg"]
+	path = aws-deepracer-usb-monitor-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-usb-monitor-pkg.git
+[submodule "aws-deepracer-webserver-pkg"]
+	path = aws-deepracer-webserver-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-webserver-pkg.git
+[submodule "rplidar_ros"]
+	path = rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
+[submodule "web_video_server"]
+	path = web_video_server
+	url = https://github.com/RobotWebTools/web_video_server.git
